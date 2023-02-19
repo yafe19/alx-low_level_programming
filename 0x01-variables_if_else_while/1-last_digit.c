@@ -1,3 +1,6 @@
+#include <stdlib.h>
+#include <time.h>
+#include <stdio.h>
 /**
  * main - print the last digite of random number
  * and whether greater than 5, less than 6 or 0.
@@ -27,6 +30,6 @@ int main(void)
 				n, n % 10);
 	}
 
-	return (0)
+	return (0);
 
 }
