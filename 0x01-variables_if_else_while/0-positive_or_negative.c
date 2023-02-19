@@ -1,23 +1,24 @@
 #include <stdlib.h>
-#include <time.g>
+#include <time.h>
 #include <stdio.h>
+/* more headers goes there */
+
 /**
- * main - Determining if the number is positive,negative or zero.
- * description: get a random number and print number
- * return 0
+ * main - Entry point
+ * Description - print if random number is positive,zero or negative 
+ * Return: Always 0 (seccess)
  */
 int main(void)
 {
-
 	int n;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	if (n > 0)
-		printf("%d is positive\n", n);
-	else if (n == 0)
-		printf("%d is zero\n", n);
-	else
+	if (n < 0)
 		printf("%d is negative\n", n);
+	if else (n == 0)
+		printf("%d is xero\n", n);
+	else 
+		printf("%d is positive\n", n);
 	return (0);
 }
