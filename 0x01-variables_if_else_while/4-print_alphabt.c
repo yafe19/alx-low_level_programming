@@ -2,7 +2,7 @@
 /**
  * main - Entry point
  * Description: print lower case alphabets.
- * Return: Always 0
+ * Return: Always 0 (success)
  */
 int main(void)
 {
@@ -12,8 +12,8 @@ int main(void)
 	{
 		if (A == 101 || A == 113)
 		{
-		continue;
-		A++;
+			A++;
+			continue;
 		}
 		putchar(A);
 	}
