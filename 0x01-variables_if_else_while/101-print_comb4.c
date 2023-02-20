@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
  * main - Entry point
- * Description: print all combination of single number.
- * Return: Always 0 (success)
+ * Description: print all possible combination of 3 digit.
+ * Retun: Always 0 (success)
  */
 int main(void)
 {
@@ -34,13 +34,10 @@ int main(void)
 				if (n != 98)
 				{
 					putchar(',');
-					putchar(' ');
 				}
 			}
 			n2++;
 		}
 		n++;
 	}
-	putchar('\n');
-	return (0);
 }
